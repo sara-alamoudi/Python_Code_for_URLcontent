@@ -1,0 +1,5 @@
+import requests
+response = requests.get("https://www.udemy.com/course/pythoncv/")
+data = response.text
+print(data)
+
